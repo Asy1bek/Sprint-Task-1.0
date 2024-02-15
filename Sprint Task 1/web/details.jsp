@@ -55,7 +55,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
-        <a href="/deleteTask?id=<%=task.getId()%>" class="btn btn-danger">Удалить</a> <!-- Это ссылка на сервлет для удаления задания, передаем id задания через параметр -->
+        <a href="/deleteTask?id=<%=task.getId()%>" class="btn btn-danger">Удалить</a> 
       </div>
     </div>
   </div>
